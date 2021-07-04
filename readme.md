@@ -5,9 +5,13 @@
 ### Установить Ansible 
 Инструкция по установке: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu
 
-### Склонировать репозиторий  
+### Клонировать репозиторий  
 
     git clone https://github.com/mamontovdmitriy/fast-install-openvpn.git
+### Скачать зависимости 
+Загрузить используемые роли в подкаталог `roles`:
+- EasyRSA https://github.com/nkakouros-original/ansible-role-easyrsa    
+- Stouts.openvpn https://github.com/Stouts/Stouts.openvpn
 
 ## Установка и настройка OpenVPN Server
 
